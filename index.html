@@ -18,15 +18,76 @@
 
     <!-- style tag -->
      <style>
+        
         .font-primary{
             font-family: "Sora", serif;
+        }
+        .hover-color{
+            background-color: #97ff84;
         }
      </style>
 </head>
 <body class="font-primary">
     <!-- header -->
     <header>
-          
+          <!-- navbar -->
+           <nav class="border-b border-[#179800] lg:border-none">
+            <div class="px-4 lg:px-32 py-6">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class=" flex  items-center ">
+                    
+                <div>
+                  <a class="text-xl"><img class="w-32 hidden lg:block" src="c2-assets/logo-header.png" alt=""></a>
+                  <a href=""> <img class="lg:hidden " src="c2-assets/Group (1).png" alt=""></a>
+                </div>
+                <div class="pr-4 absolute left-96">
+                    <div class="dropdown">
+                      <div tabindex="0"  class=" lg:hidden">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5 "
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="#179800">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 6h-16M20 12h-8m8 6h-16" />
+                        </svg>
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-2 text-base font-medium">
+                        <li><a>Product</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact us</a></li>
+                        <div class="">
+                        <a class="btn btn-outline border-[#179800] border-1 hover:bg-[#179800] hover:border-none text-base font-medium">Login</a>
+                        <a class="btn bg-[#179800] text-white hover:text-[#000000] hover:bg-[#a3ff92]  text-base font-medium">Register</a>
+                      </div>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base font-medium">
+                    <li><a>Product</a></li> 
+                    <li><a>Services</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-5 hidden lg:flex">
+                    <a><img class="w-6" src="c2-assets/Frame 6.png" alt=""></a>
+                    <a><img class="w-6" src="c2-assets/Group.png" alt=""></a>
+                  <a class="btn btn-outline border-[#179800] border-1 hover:bg-[#179800] hover:border-none text-base font-medium">Login</a>
+                  <a class="btn bg-[#179800] text-white hover:text-[#000000] hover:bg-[#a3ff92]  text-base font-medium">Register</a>
+                </div>
+              </div>
+            </div>
+           </nav>
     </header>
 
     <!-- main -->
